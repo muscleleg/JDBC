@@ -23,7 +23,7 @@ public class Program5 {
 					System.out.println("종료");
 					break EXIT;
 				default:
-					System.out.println("1~114만 입111221332122력가1능");//테스트1;
+					System.out.println("1~114만 입1112213232122력가1능");//테스트1;
 					break;
 			}
 
