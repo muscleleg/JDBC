@@ -23,7 +23,7 @@ public class Program5 {
 					System.out.println("����");
 					break EXIT;
 				default:
-					System.out.println("1~114�� ��111221323212222�°�1��");//�׽�Ʈ1;
+					System.out.println("1~4221323212222�°�1��");//�׽�Ʈ1;
 					break;
 			}
 
