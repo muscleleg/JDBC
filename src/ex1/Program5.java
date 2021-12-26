@@ -24,7 +24,7 @@ public class Program5 {
 					System.out.println("종료");
 					break EXIT;
 				default:
-					System.out.println("1~41 입력가능");//테스트1;
+					System.out.println("1~4 입력가능");//테스트1;
 					break;
 			}
 
