@@ -37,7 +37,7 @@ public class NoticeConsole {
 		String menu_ = scan.nextLine();
 		int menu = Integer.parseInt(menu_);
 		return menu;
-		//砺什闘けけけけいけA
+		//砺什闘けけけけいけAs
 	}
 
 	

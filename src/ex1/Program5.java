@@ -23,7 +23,7 @@ public class Program5 {
 					System.out.println("종료");
 					break EXIT;
 				default:
-					System.out.println("1~4만 입력가능");
+					System.out.println("1~4만 입력가능");//테스트
 					break;
 			}
 
