@@ -19,11 +19,11 @@ public class Program5 {
 					break;
 				case 4:
 					break;
-				case 5://а╬╥А
-					System.out.println("а╬╥А");
+				case 5://О©╫О©╫О©╫О©╫
+					System.out.println("О©╫О©╫О©╫О©╫");
 					break EXIT;
 				default:
-					System.out.println("1~114╦╦ ют1112213232122╥б╟║1╢и");//ев╫╨ф╝1;
+					System.out.println("1~114О©╫О©╫ О©╫О©╫111221323212222О©╫б╟О©╫1О©╫О©╫");//О©╫в╫О©╫ф╝1;
 					break;
 			}
 
