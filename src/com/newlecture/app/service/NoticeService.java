@@ -60,7 +60,29 @@ public class NoticeService {
 		
 		return list;
 	}
-	
+	//Scalar 단위 값을 가지고 오는것
+		public int getCount() throws SQLException, ClassNotFoundException {
+			int count=0;
+			String sql="SELECT COUNT(ID) COUNT  FROM NOTICE";
+			
+			Class.forName(driver);
+			Connection con = DriverManager.getConnection(url,uid,pwd);
+			Statement st = con.createStatement();
+			ResultSet rs = st.executeQuery(sql);
+		
+			
+			
+			if(rs.next())
+				count = rs.getInt("COUNT");
+		
+			rs.close();
+			st.close();
+			con.close();
+			
+			
+			return count;
+		}
+		
 	public int insert(Notice notice) throws SQLException, ClassNotFoundException {
 		String title =notice.getTitle();
 		String writerId=notice.getWriterId();
@@ -132,4 +154,5 @@ public class NoticeService {
 		con.close();
 		return result;
 	}
+
 }
